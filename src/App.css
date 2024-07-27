@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #75c9e0;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filters input,
+.filters select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #75c9e0;
+  color: white;
+}
+
+.filters button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #75c9e0;
+  color: white;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
+
+.retreat-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.retreat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  gap: 5px;
+}
+
+.image-container {
+  width: 100%;
+  padding-top: 100%; 
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.retreat-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.retreat-content {
+  flex: 1;
+}
+
+.retreat-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.retreat-description {
+  font-size: 1em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.retreat-details {
+  font-size: 0.9em;
+
+}
+
+.retreat-details p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.upper-card {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.upper-card-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.upper-card-content {
+  flex: 1;
+}
+
+.upper-card-title {
+  font-size: 1.5rem;
+  color: #1e3a63;
+  margin-bottom: 10px;
+}
+
+.upper-card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Home.css */
+
+.search-filters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  padding: auto;
+}
+
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: #75c9e0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination span {
+  margin: 0 10px;
+}
